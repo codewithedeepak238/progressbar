@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.bar {
+  width: 500px;
+  height: 20px;
+  border-radius: 10px;
+  display: block;
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.insidebar {
+  height: 100%;
+  border-radius: 10px;
+  background-color: green;
+  transition: width 0.5s ease-out;
+}
+.text {
+  position: absolute;
+}
